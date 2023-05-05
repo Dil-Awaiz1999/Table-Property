@@ -1,0 +1,32 @@
+table{
+    width: 70%;
+    border: 3px solid transparent;
+    border-top-color: aqua;
+    border-right-color: blue;
+    border-left-color: blueviolet;
+    border-bottom-color: aquamarine;
+    font-weight: 800px;
+    text-transform: capitalize;
+    color: brown;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    margin: auto;
+    background: linear-gradient(to right, rgba(247, 115, 115, 0.959),wheat);
+    box-shadow: 10px 10px 20px 10px gray;
+    transition: all 2s;
+}
+td{
+    border: 5px double brown;
+}
+thead{
+    background-color: maroon;
+    color: white;
+}
+table:hover{
+    background-color: rgb(149, 228, 241);
+}
+tr:hover{
+    background-color: black;
+    transition: all 1s;
+    color: blueviolet;
+}
